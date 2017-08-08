@@ -10,6 +10,8 @@ services:
 env:
     - LITUS_TEST=install
 
+dist: precise
+
 before_install: phpenv config-add travis.ini
 
-install: install.sh
+install: ./install.sh
