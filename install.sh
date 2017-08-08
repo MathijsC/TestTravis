@@ -14,10 +14,10 @@ echo "start npm"
 # install npm
 # I know, right?
 #curl -L http://npmjs.org/install.sh | sudo sh
-sudo ln -s $(which node) /usr/local/bin/npm
-sudo $(which npm) install npm@4.4.1
+sudo apt-get install aptitude
+sudo aptitude install npm
 
 echo "start less"
 
 # install lessc
-sudo $(which npm) install -g less
+# sudo npm install -g less
