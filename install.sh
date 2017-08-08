@@ -14,8 +14,7 @@ echo "start npm"
 # install npm
 # I know, right?
 #curl -L http://npmjs.org/install.sh | sudo sh
-sudo apt-get install aptitude
-sudo aptitude install npm
+sudo aptitude -y install npm
 
 echo "start less"
 
