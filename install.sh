@@ -9,11 +9,13 @@ echo "start script"
 sudo mkdir -p /usr/local/bin
 sudo ln -s $(which node) /usr/local/bin/node
 
+echo "start npm"
+
 # install npm
 # I know, right?
-sudo apt-get install npm
-sudo npm install
-npm --version
+curl -L http://npmjs.org/install.sh | sudo sh
+
+echo "start less"
 
 # install lessc
  sudo npm install -g less
