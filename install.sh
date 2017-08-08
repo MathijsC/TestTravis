@@ -3,7 +3,7 @@
 # bail out if anything fails
 set -e
 
-cd $(dirname "$0")/../..;
+echo "start script"
 
 # link node to /usr/local/bin
 sudo mkdir -p /usr/local/bin
