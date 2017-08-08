@@ -20,4 +20,4 @@ sudo $(which npm) install npm@4.4.1 -g
 echo "start less"
 
 # install lessc
-sudo npm install -g less
+sudo npm -g install less
