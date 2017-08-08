@@ -14,8 +14,8 @@ echo "start npm"
 # install npm
 # I know, right?
 #curl -L http://npmjs.org/install.sh | sudo sh
-npm install npm@4.4.1 -g
 sudo ln -s $(which node) /usr/local/bin/npm
+sudo npm install npm@4.4.1 -g
 
 echo "start less"
 
